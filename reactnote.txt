@@ -1,0 +1,51 @@
+                        
+                        REACT -Front end Technology (Library)
+               ========================================================  
+
+                   Commands
+                 -------------
+
+      1.Create project:npx create-react-app project-name
+      2.to run project:npm start
+
+                
+                 Features
+               -----------
+
+      1.component based approach
+      2.JSX (Javascript  XML)
+      3.Virtual dom
+      4.Fast
+      5.Front end Differneces
+
+         Angular             |                React                   |           Vue
+      -----------------------|----------------------------------------|-----------------------      
+      1.Framework            |               Library                  |         Framework
+      -google                |               -meta(facebook)          |         -Open Source
+      2.TypeScript           |               Javascript               |        Javascript
+      3.Real DOM             |               Virtual DOM              |         Virtual DOM
+      4.Two way Binding      |               One way Binding          |         Two way Binding
+
+
+      6.State: Used to store data, and share it other component (parent to child)
+      -create a state using useState
+      syntax: const [state-name,function-name to change the state value] = useState('initial value')
+      -to update state:using stste update function ehere pass the updated value as argument
+      to share state from parent to child : using props
+
+      7.Components: 2 types (create js file with file name start with capital letter)
+           => Class based Components/stateful Components:
+           => Functional based Components/stateless Components:
+           => rfce :react functional component export
+           => rcc : react class component
+
+      8.React Hooks
+         -useState():to create user defined state in Functional Component 
+         -useEffect():alows you to 
+
+      9.Conditional Rendring   
+
+
+
+
+      14.Context API : avoid  props drilling,share data between components
